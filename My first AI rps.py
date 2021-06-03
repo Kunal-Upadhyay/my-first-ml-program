@@ -28,7 +28,7 @@ while True:
         for i in range(0,len(RL)):
             if player==PL[i] and RL[i]=="W":
                 L.remove(CL[i])
-            if player==CL[i] and RL[i]=="W":
+            elif player==CL[i] and RL[i]=="W":
                 L=[]
                 L.append(PL[i])
             if player==PL[i] and RL[i]=="L":
